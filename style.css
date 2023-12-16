@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5F8FA;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    height: 70vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+.top-nav ul{
+    display: flex;
+    padding-top: 1rem;
+}
+.top-nav ul li{
+    list-style-type: none;
+    padding: 0 1rem;
+}
+.top-nav ul li button{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 4px 8px;
+    background-color: transparent;
+}
+/* End of Nav Bar */
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.content{
+    display: flex;
+}
+.left-content{
+    background-color: white;
+    width: 60%;
+}
+.left-content h1{
+    padding: 1rem 2rem;
+}
+hr{
+    color: #E0E6EA;
+}
+.basic{
+    display: flex;
+    padding: 1rem 2rem;
+}
+.basic h4{
+    padding-right: 0.5rem;
+}
+
+.top-form{
+    display: flex;
+}
+.first-name{
+    padding: 0 2rem;
+}
+.down-form{
+    padding: 1rem 2rem;
+}
+.down-form input{
+    padding: 0.5rem 0.4rem;
+}
+input{
+    padding: 0.4rem 1rem;
+    border: none;
+    background-color: #EDEFF2;
+    margin-top: 4px;
+}
+
+.down-form input{
+    width: 60%;
+}
+.payment{
+    display: flex;
+    padding: 2rem 2rem;
+    
+}
+.payment h4{
+    padding-right: 0.5rem;
+}
+.form-two{
+    padding-bottom: 1rem;
+}
+.credit{
+    padding-left: 2rem;
+}
+.input-container {
+    position: relative;
+    margin: 10px;
+    margin-left: 2rem;
+    width: 500px;
+}
+
+.left-placeholder,
+.right-placeholder {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Ensure the placeholders don't interfere with input interaction */
+    color: #888; 
+}
+
+.left-placeholder {
+    left: 10px;
+}
+
+.right-placeholder {
+    right: 10px; 
+}
+
+.styled-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.down-section{
+    text-align: center;
+    padding: 1rem 0;
+}
+.last-part{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+.last-part img{
+    padding-right: 8px;
+    width: 40px;
+}
+.down-section p{
+    margin: 0.5rem 0;
+}
+.btn1{
+    border: none;
+    padding: 12px 8rem;
+    color: white;
+    font-size: 16px;
+    background-color: #038E7D;
+}
+.btn2{
+    border: none;
+    padding: 8px 2rem;
+    background-color: #566473;
+    color: white;
+    margin: 0.5rem 0;
+}
+/* End of Left Content */
+.right-content{
+    background-color:  #1179BF;
+    color: white;
+    padding: 2rem 4rem;
+    width: 40%;
+}
+.right-para{
+    display: flex;
+    padding: 1rem 0;
+    margin-bottom: 0.2rem;
+}
+
+.right-para p{
+    padding-right: 0.4rem;
+}
+.right-para p:first-child{
+    font-size: 20px;
+    vertical-align: super;
+    font-weight: bold;
+}
+.right-para p:nth-child(2){
+    font-size: 35px;
+}
+.right-para p:nth-child(3){
+    padding-top: 1rem;
+    font-size: 18px;
+}
+.list{
+    margin: 1rem 0;
+}
+.list span{
+    display: flex;
+    padding: 8px 0;
+}
+.list img{
+    padding-right: 16px;
+}
+.mid-item{
+    padding: 2rem 0;
+}
+.mid-item a{
+    color: white;
+    text-decoration: none; 
+    border-bottom: 2px solid aqua;
+    line-height: 2rem;
+}
+.last-item{
+    margin: 12px 0;
+    margin-top: 24px;
+    line-height: 1.6rem;
+}
+.last-img{
+    display: flex;
+    padding-top: 10px;
+}
+.last-img img{
+    padding-right: 8px;
+}
+.last-img h3{
+    margin-top: 8px;
+}
+.final{
+    text-align: center;
+    padding: 2rem 0;
+}
